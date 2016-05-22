@@ -6,6 +6,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
+    "promises-aplus-tests": "^2.1.1",
     "source-map-support": "^0.4.0",
     "typescript": "^1.8.10",
     "typings": "^1.0.4"
