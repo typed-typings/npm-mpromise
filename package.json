@@ -1,0 +1,32 @@
+{
+  "name": "typed-npm-mpromise",
+  "version": false,
+  "private": true,
+  "description": "Typescript Typings for MPromise",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "source-map-support": "^0.4.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  },
+  "scripts": {
+    "postinstall": "typings install && typings prune",
+    "build": "tsc -p . && typings bundle -o dist/index.d.ts",
+    "test": "tsc -p test && mocha"
+  },
+  "author": "Louay Alakkad",
+  "license": "ISC",
+  "dependencies": {
+    "mpromise": "^0.5.5"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typed-typings/npm-mpromise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/typed-typings/npm-mpromise/issues"
+  },
+  "homepage": "https://github.com/typed-typings/npm-mpromise#readme"
+}
