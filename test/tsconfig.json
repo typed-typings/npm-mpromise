@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": true
+  },
+  "files": [
+    "../typings/index.d.ts",
+    "../dist/index.d.ts",
+    "promise.test.ts",
+    "promises.Aplus.ts",
+    "promise.domain.test.ts"
+  ]
+}
